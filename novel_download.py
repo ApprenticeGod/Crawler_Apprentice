@@ -87,7 +87,7 @@ def text_crawler(web_url,novel_url,mode='txt'):
     novel_text = []
 
     # 遍历章节列表，显示下载进度
-    for chapter in tqdm(chapter_list, desc='Downloading', unit='chapter'):
+    for chapter in tqdm(chapter_list, desc='Downloading', unit='chapter'，leave=False):
         #id=id+1
         chapter_title = chapter.a.text.strip()
         chapter_url = web_url + chapter.a['href']
