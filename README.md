@@ -9,7 +9,7 @@
 **本机使用的Anaconda虚拟环境，在指定路径创建虚拟环境的指令：**  ```conda create --prefix /path/env_name env_name python=python的版本号  ```
 (**如果不指定路径的话：** ```conda create --name env_name python=python的版本号)```    
 **激活conda虚拟环境：**  ```conda activate path/env_name```    
-***novel_download.py*** 所需的依赖：```使用pip install 依赖包名称``` 安装对应的依赖
+***novel_download.py*** 所需的依赖：使用```pip install 依赖包名称``` 安装对应的依赖
 - ```requests```  *(用于向网页发送请求，获取响应)*
 - ```bs4```  *(用于将网页返回的html报文解析成DOM结构树的形式，生成BeautifulSoup对象)*
 - ```tqdm```  *(用于在终端展示出进度条)*
